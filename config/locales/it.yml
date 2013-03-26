@@ -1,0 +1,461 @@
+it:
+  agex_action:
+    main: Principale
+    home: "Home"
+    home_tooltip: "Vai alla pagina principale"
+    login: "Login"
+    logout: "Esci / Rientra"
+    logout_tooltip: "Esci (effettua Log-out + Log-in)"
+    about: "Informazioni"
+    about_tooltip: "Vai alla pagina Informazioni"
+    contact_us: "Contattaci"
+    contact_us_tooltip: "Vai alla pagina 'Contattaci'"
+    news_log: "Archivio news"
+    news_log_tooltip: "Vai alla pagina 'Archivio news'"
+    sub_entities: "Sotto-entita'"
+    sub_entities_tooltip: "Vai alla pagina di gestione Sotto-entita'"
+    whos_online: "Chi e' on-line"
+    whos_online_tooltip: "Vai alla pagina 'Chi e' on-line'"
+    contacts: "Contatti"
+    contacts_tooltip: "Vai alla pagina gestione Contatti"
+    firms: "Ditte"
+    firms_tooltip: "Vai alla pagina gestione Ditte"
+    human_resources: "Risorse umane"
+    human_resources_tooltip: "Vai alla pagina gestione Risorse umane"
+    teams: "Team/Gruppi"
+    teams_tooltip: "Vai alla pagina gestione Team/Gruppi"
+    accounts: "Conti contabili"
+    accounts_tooltip: "Vai alla pagina gestione Conti contabili"
+    projects: "Progetti"
+    projects_tooltip: "Vai alla pagina gestione Progetti"
+    invoices: "Fatture"
+    invoices_tooltip: "Vai alla pagina gestione Fatture"
+    data_filtered_from: "Dati filtrati a partire dal"
+    data_filtered_to: "al"
+
+    authors: Autori canzoni
+    authors_tooltip: "Gestisci l'elenco degli Autori inseriti"
+    bands: Gruppi
+    bands_tooltip: "Gestisci l'elenco dei Gruppi inseriti"
+    musicians: Musicisti
+    musicians_tooltip: "Gestisci l'elenco dei Musicisti inseriti"
+    recordings: Registrazioni
+    recordings_tooltip: "Gestisci l'elenco delle Registrazioni inserite"
+    songs: Canzoni
+    songs_tooltip: "Gestisci l'elenco delle Canzoni inserite"
+    tags: "Tag / etichette"
+    tags_tooltip: "Gestisci l'elenco dei Tag inseriti"
+    users: Utenti
+    users_tooltip: "Gestisci l'elenco degli Utenti"
+    group_and_performers: "Gruppi e Musicisti"
+    songs_and_authors: "Autori e Canzoni"
+    recordings_database: "Database Registrazioni"
+    manage_system: "Gestione Sistema"
+    upload_title: "Upload file"
+    upload: "Upload (carica) file audio"
+    upload_tooltip: "Scegli un file audio supportato e clicca ok per fare l'upload su server"
+    edit_current_user: "Modifica profilo Utente"
+    edit_current_user_tooltip: "Modifica il tuo profilo Utente o cambia la password utilizzata"
+    manage_files: "Gestisci File caricati"
+    manage_files_tooltip: "Permette di eliminare o rinominare i file caricati con la funzione di 'File upload'"
+    app_parameters: Parametri Applicazione
+    app_parameters_tooltip: "Gestisci l'elenco dei Parametri interni dell'Applicazione"
+
+
+  agex_module_desc: 'Archivio Registrazioni Gruppi'
+  something_went_wrong: "qualcosa e' andato storto, controllare il file di log."
+  main: 'Principale:'
+  home: Home
+  login: Login
+  logout: Disconnetti
+  about: Informazioni
+  contact_us: Contattaci
+  questions_about: Domande riguardanti
+  sections: 'Sezioni:'
+  setup: 'Setup:'
+  user: Utente
+  user_name: Nome utente
+  login_to_proceed: "Per continuare e' necessario fare Log-in." 
+  login_tooltip: Accedi
+  password: Password
+  user_not_authenticated: 'Utente non registrato'
+  invalid_user: "Utente / Password non corretti!"
+  access_denied: "Accesso negato."
+  disconnected: Disconnesso
+  welcome: "Benvenuti!"
+  hi: Ciao
+  user_created: Utente creato con successo.
+  user_deleted: Utente eliminato con successo.
+  req_functionality_under_development: "La funzionalita' richiesta non e' attualmente disponibile perche' e' stata sottoposta a revisione o ci sono lavori di manutenzione in corso."
+
+  no_new_articles: Nessun nuovo articolo
+  file_name: "Nome file"
+  file_path: "Percorso"
+  audio_files: "File audio"
+  file: File
+  uploaded: ricevuto
+  upload_failed: "Upload fallito!"
+  keep_offline: "Mantieni off-line"
+
+  get_tags: "Tag"
+  add_modify_associated_tags: "Aggiungi/Modifica Tag associati"
+  add_new_recording_take_using_filename: "Aggiungi Recording/Take usando un nome file"
+  include_also_disbanded_groups: "...E includi anche Gruppi ormai sciolti"
+  insert_new_recording_take: "Inserisci una nuova Recording/Take"
+  which_band: "Quale Gruppo?"
+  which_song: "Quale Pezzo?"
+
+  id: Id
+  name: Nome
+  description: Descrizione
+  tot: Tot.
+  sum: 'Somma'
+  mean: 'Media'
+  notes: Note
+  created_at: Creato il
+  updated_at: Modificato il
+  created_on: Creato il
+  updated_on: Modificato il
+  created_slash_updated_at: "Creato/Aggiorn. il"
+  created_slash_updated_on: "Creato/Aggiorn. il"
+  details_for: Dettagli per
+  refresh: Aggiorna
+  click_on_the_grid: "(Clicca sulla griglia per contare)"
+  tot_rows: "righe tot."
+  selected: Selezionate
+  grand_total: Totale Complessivo
+  subtotals: Subtotali
+  sums: Somme
+  costs: Costi
+  error: Errore
+  undefined: "(non definito)"
+
+  user_id: Utente
+  nickname: Nickname
+  author_id: Autore
+  author__name: Autore
+  band_id: Gruppo
+  band__name: Gruppo
+  founded_on: Fondato il
+  disbanded_on: Sciolto il
+  musician_id: Musicista
+  musician__get_full_name: Musicista
+  joined_on: Unitosi nel
+  left_on: Lascia il
+  recording__id: "Registr. Id"
+  recording_id: "Registr. Id"
+  recording__rec_code: Codice Registr.
+  rec_code: Codice Reg.
+  rec_date: Data Reg.
+  rec_order: Sequenza
+  song_id: Brano orig.
+  song__get_full_name: Brano orig.
+  tag_id: Tag
+  take__get_full_name: Take
+  take_id: Take
+  ordinal: Sequenza
+  vote: Voto
+
+  link_take_to_tag: Associa Take a Tag corrente
+  edit_take_to_tag_link: Modifica associazione Take-Tag
+  associated_take: Take associata
+  take__recording_id: Id registraz.
+
+  warning_no_data_to_send: "Non ci sono righe dati da elaborare!"
+  drag_to_resize: "Trascina per ridimensionare le aree"
+  show_details_tooltip: "Mostra i dettagli della riga selezionata in una finestra pop-up"
+  add: Aggiungi
+  edit: Modifica
+  user: Utente
+  manage_details: Gestisci dettagli
+  manage_details_tooltip: "Gestisci nei dettagli l'elemento selezionato [anche: SPAZIO o INVIO dopo aver selezionato la riga]"
+
+  reporting: "Report"
+  data_export: "Esportazioni"
+
+  user__name: Utente
+  authorization_level: "Livello Autorizz."
+  password_confirmation: Conferma password
+  password_missing: "Password mancante"
+  salt: "Cod. salt"
+  hashed_pwd: "Hashed Pwd."
+  session_deleted: "Sessione eliminata."
+  unable_to_delete_session: "Impossibile eliminare la sessione."
+
+  edit_inline: Modifica su griglia
+  edit_in_form: Modifica in finestra
+  show_details: Mostra dettagli
+  details: Dettagli di riga
+  search: Cerca
+
+  title: Titolo
+  entry_text: Testo
+  is_sticky: "Perman.?"
+
+  sub_entities_management: "Gestione sotto-entita'"
+
+  users: Utenti
+  code: Cod.
+  zip: CAP
+  area: Provincia
+  country: "Paese / Nazione"
+  country_code: Sigla Nazione
+  display_symbol: Simbolo
+  is_a_parent: "Macrotipo?"
+  comment: Commento
+
+
+  netzke:
+    basepack:
+      grid_panel:
+        actions:
+          add: Aggiungi
+          edit: Modifica
+          del: Elimina
+          apply: Applica
+          add_in_form: Aggiungi su form
+          edit_in_form: Modifica su form
+          search: Cerca
+
+        deleted_n_records: "%{n} record eliminati"
+        cannot_delete: "Non hai l'autorizzazione per eliminare dati"
+        confirmation: Conferma
+        are_you_sure: Siamo sicuri di voler continuare?
+
+        record_form_window:
+          actions:
+            ok: OK
+            cancel: Annulla
+
+      search_window:
+        title: Ricerca estesa
+        actions:
+          search: Cerca
+          cancel: Annulla
+        action:
+          search: Cerca
+          cancel: Annulla
+
+      form_panel:
+        actions:
+          edit: Modifica
+          edit_tooltip: Modifica
+          cancel: Annulla
+          cancel_tooltip: Annulla le modifiche
+          apply: Applica
+          apply_tooltip: Applica le modifiche
+
+      search_panel:
+        presets: Valori predefiniti
+        equals: Uguale
+        greater_than: Maggiore di
+        less_than: Minore di
+        contains: Contiene
+        matches: Uguale
+        date_equals: "esattamente il"
+        before: Prima
+        after: Dopo
+
+      paging_form_panel:
+        actions:
+          search: Ricerca
+          search_tooltip: Ricerca estesa
+
+      query_builder:
+        presets: Preset
+        preset_saved: Preset salvato
+        preset_deleted: Preset cancellato
+        overwrite_confirm: "Sicuri di voler sovrascrivere il preset '{0}'?"
+        overwrite_confirm_title: "Sovrascrittura preset"
+        delete_confirm: "Sicuri di voler eliminare il preset '{0}'?"
+        delete_confirm_title: "Eliminazione preset"
+        actions:
+          clear_all: Ripulisci
+          clear_all_tooltip: Ripulisci tutte le condizioni
+          reset: Reset
+          reset_tooltip: "Reset di tutte le condizioni"
+          save_preset: Salva preset
+          save_preset_tooltip: Salva preset
+          delete_preset: Elimina preset
+          delete_preset_tooltip: Elimina preset
+          apply: Applica
+          apply_tooltip: Applica le condizioni aggiornate
+
+    formats:
+      date: Y-m-d
+      datetime: Y-m-d H:i:s
+      time: H:i:s
+
+
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%d-%m-%Y"
+      short: "%b %d"
+      long: "%B %d, %Y"
+
+    day_names: [Domenica, Lunedì, Martedì, Mercoledì, Giovedì, Venerdì, Sabato]
+    abbr_day_names: [Dom, Lun, Mar, Mer, Gio, Ven, Sab]
+
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names: [~, Gennaio, Febbraio, Marzo, Aprile, Maggio, Giugno, Luglio, Agosto, Settembre, Ottobre, Novembre, Dicembre]
+    abbr_month_names: [~, Gen, Feb, Mar, Apr, Mag, Giu, Lug, Ago, Sett, Ott, Nov, Dic]
+    # Used in date_select and datime_select.
+    order: [ :year, :month, :day ]
+
+  time:
+    formats:
+      default: "%a %d-%m-%Y %H:%M:%S %z"
+      short: "%d-%m %H:%M"
+      long: "%B %d, %Y %H:%M"
+    am: "AM"
+    pm: "PM"
+
+# Used in array.to_sentence.
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " e "
+      last_word_connector: ", e "
+
+
+  activerecord:
+    models:
+      author: Autore
+      band: Gruppo
+      musician: Musicista
+      recording: Registrazione
+      song: Brano
+      tag: Tag
+      take: Take
+      user: Utente
+    attributes:
+      author:
+        created_at: Creato il
+        updated_at: Ultima modifica
+        created_on: Creato il
+        updated_on: Ultima modifica
+        name: Nome
+        user_id: Agg. da Utente
+      band:
+        created_at: Creato il
+        updated_at: Ultima modifica
+        created_on: Creato il
+        updated_on: Ultima modifica
+        name: Nome
+        description: Descrizione
+        notes: Note
+        founded_on: Fondato il
+        disbanded_on: Sciolto il
+        user_id: Agg. da Utente
+      musician:
+        created_at: Creato il
+        updated_at: Ultima modifica
+        created_on: Creato il
+        updated_on: Ultima modifica
+        name: Nome
+        nickname: Nickname
+        description: Descrizione
+        user_id: Agg. da Utente
+      recording:
+        created_at: Creato il
+        updated_at: Ultima modifica
+        created_on: Creato il
+        updated_on: Ultima modifica
+        band_id: Gruppo
+        rec_code: Codice Reg.
+        rec_date: Data Reg.
+        rec_order: Sequenza
+        description: Descrizione
+        notes: Note
+        user_id: Agg. da Utente
+      song:
+        created_at: Creato il
+        updated_at: Ultima modifica
+        created_on: Creato il
+        updated_on: Ultima modifica
+        name: Nome
+        author_id: Autore
+        user_id: Agg. da Utente
+      tag:
+        created_at: Creato il
+        updated_at: Ultima modifica
+        created_on: Creato il
+        updated_on: Ultima modifica
+        name: Nome
+        user_id: Agg. da Utente
+      take:
+        created_at: Creato il
+        updated_at: Ultima modifica
+        created_on: Creato il
+        updated_on: Ultima modifica
+        song_id: Brano orig.
+        ordinal: Sequenza
+        vote: Voto
+        notes: Note
+        user_id: Agg. da Utente
+      user:
+        created_at: Creato il
+        updated_at: Ultima modifica
+        created_on: Creato il
+        updated_on: Ultima modifica
+        name: Nome
+        salt: "Cod. salt"
+        hashed_pwd: "Password codif."
+        password: Password
+        password_confirmation: Conferma password
+        description: "Descrizione / nome completo"
+        enable_blog: "Blogger?"
+        enable_edit: "Puo' modificare?"
+        enable_delete: "Puo' eliminare?"
+        enable_setup: Abilita set-up
+        authorization_level: Liv. autorizz.
+        user_id: Agg. da Utente
+    errors:
+      models:
+        author:
+          attributes:
+            user_id:
+              blank: "non puo' essere vuoto (il codice dell'utente che esegue la modifica va dichiarato)"
+        band:
+          attributes:
+            user_id:
+              blank: "non puo' essere vuoto (il codice dell'utente che esegue la modifica va dichiarato)"
+        musician:
+          attributes:
+            user_id:
+              blank: "non puo' essere vuoto (il codice dell'utente che esegue la modifica va dichiarato)"
+        recording:
+          attributes:
+            user_id:
+              blank: "non puo' essere vuoto (il codice dell'utente che esegue la modifica va dichiarato)"
+        song:
+          attributes:
+            user_id:
+              blank: "non puo' essere vuoto (il codice dell'utente che esegue la modifica va dichiarato)"
+        tag:
+          attributes:
+            user_id:
+              blank: "non puo' essere vuoto (il codice dell'utente che esegue la modifica va dichiarato)"
+        take:
+          attributes:
+            user_id:
+              blank: "non puo' essere vuoto (il codice dell'utente che esegue la modifica va dichiarato)"
+        user:
+          attributes:
+            password:
+              too_long: "troppo lunga (max. 128 caratteri)"
+              too_short: "troppo corta (min. 6 caratteri)"
+              blank: "non puo' essere vuota (min. 6 caratteri)"
+            password_confirmation:
+              too_long: "troppo lunga (max. 128 caratteri)"
+              too_short: "troppo corta (min. 6 caratteri)"
+              blank: "non puo' essere vuota (min. 6 caratteri)"
+            hashed_pwd:
+              too_long: "troppo lunga (max. 255 caratteri)"
+              too_short: "troppo corta (min. 6 caratteri)"
+              blank: "non puo' essere vuota (min. 6 caratteri)"
+            user_id:
+              blank: "non puo' essere vuoto (il codice dell'utente che esegue la modifica va dichiarato)"

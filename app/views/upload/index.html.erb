@@ -1,0 +1,42 @@
+<!-- Main menu section: -->
+<%= render( :partial => AGEX_APP + '/main_menu') %>
+
+<h1><%= I18n.t(:upload, :scope => [:agex_action]) + ':' %></h1>
+
+
+
+<div align="center" style="padding-top: 2em; padding-bottom: 1em;">
+
+	<%= form_tag( 'upload/file_upload', :multipart => true ) do -%>
+		<p><label>Select File</label> : 
+		<%= file_field_tag( :datafile ) %> &nbsp;
+	  	<%= submit_tag( "Upload" ) %>
+	<% end %>
+<!--
+	<%= netzke :upload_form, {
+		:class_name => "UploadPanel",
+		:width => 600,
+		:border => true
+	} %>
+-->
+</div>
+
+<div style="padding-top: 1em; padding-bottom: 3em;">
+<h2>Uploaded files:</h2>
+<%= Dir.pwd %> 
+<% @uploaded_files = Dir.glob( File.join(Dir.pwd, 'public/uploads/*.*') ) %>
+<ul>
+	<% @uploaded_files.each do |fn| %>
+		<li>
+			-&nbsp; <%= h(fn) %> &nbsp;
+			<%= link_to(
+					I18n.t(:del, :scope => [:netzke,:basepack,:grid_panel,:actions]),
+					upload_kill_file_path( :id => fn ),
+					:method => :delete,
+					:confirm => I18n.t(:are_you_sure, :scope => [:netzke,:basepack,:grid_panel])
+		 		) %>
+			
+		</li>
+	<% end %>
+</ul>
+</div>

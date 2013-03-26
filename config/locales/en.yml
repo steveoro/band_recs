@@ -1,0 +1,207 @@
+en:
+  agex_action:
+    main: Main
+    home: "Home"
+    home_tooltip: "Go to the Home page"
+    login: "Login"
+    logout: "Exit / Re-enter"
+    logout_tooltip: "Exit (Log out / Re-log in)"
+    about: "About"
+    about_tooltip: "Go to the About page"
+    contact_us: "Contact Us"
+    contact_us_tooltip: "Go to the 'Contact us' page"
+    news_log: "News log"
+    news_log_tooltip: "Go to the 'News' archive"
+    sub_entities: "Sub-entities"
+    sub_entities_tooltip: "Go to the management page for the Sub-entities"
+    whos_online: "Who's on-line"
+    whos_online_tooltip: "Check out 'Who's on-line'"
+    contacts: "Contacts"
+    contacts_tooltip: "Manage Contacts"
+    firms: "Firms"
+    firms_tooltip: "Manage Firms"
+    human_resources: "Human Resources"
+    human_resources_tooltip: "Manage Human Resources"
+    teams: "Team/Groups"
+    teams_tooltip: "Manage Team/Groups"
+    accounts: "Accounting"
+    accounts_tooltip: "Manage Accounting"
+    projects: "Projects"
+    projects_tooltip: "Manage Projects"
+    invoices: "Invoices"
+    invoices_tooltip: "Manage Invoices"
+    data_filtered_from: "Data filtered from"
+    data_filtered_to: "to"
+
+    authors: Authors
+    authors_tooltip: "Manage the song Authors list"
+    bands: Bands
+    bands_tooltip: "Manage the Bands list"
+    musicians: Musicians
+    musicians_tooltip: "Manage the Musicians list"
+    recordings: Recordings
+    recordings_tooltip: "Manage the Recordings list"
+    songs: Songs
+    songs_tooltip: "Manage the Songs list"
+    tags: Tags
+    tags_tooltip: "Manage the Tags list"
+    users: Users
+    users_tooltip: "Manage the User list"
+    group_and_performers: "Groups and Musicians"
+    songs_and_authors: "Authors and Songs"
+    recordings_database: "Recordings Database"
+    manage_system: "Manage System"
+    upload_title: "Upload file"
+    upload: "Upload audio file"
+    upload_tooltip: "Select a supported audio file then click on OK to execute the upload"
+    edit_current_user: "Edit User profile"
+    edit_current_user_tooltip: "Edit your User profile or change the current password"
+    manage_files: "Manage uploaded Files"
+    manage_files_tooltip: "Manage uploaded Files"
+    app_parameters: Application Parameters
+    app_parameters_tooltip: "Manage the internal Application Parameters list"
+
+
+  agex_module_desc: 'Band Recording Archive'
+  something_went_wrong: "something went wrong, check the log file."
+  main: 'Main:'
+  home: Home
+  login: Login
+  logout: Logout
+  about: About
+  contact_us: Contact us
+  questions_about: Questions about
+  sections: 'Sections:'
+  setup: 'Setup:'
+  user: User
+  user_name: User name
+  password: Password
+  login_to_proceed: To proceed, a log-in is required.
+  login_tooltip: Log in
+  user_not_authenticated: 'User Not Yet Authenticated'
+  invalid_user: "Invalid User / Password combination!"
+  access_denied: "Access denied."
+  disconnected: Disconnected
+  welcome: "Welcome!"
+  hi: Hi
+  user_created: User successfully created.
+  user_deleted: User successfully deleted.
+  req_functionality_under_development: "The requested functionality is not currently available due to revisions or maintenance."
+
+  no_new_articles: No new articles
+  file_name: "File name"
+  file_path: "Full path name"
+  audio_files: "Audio files"
+  file: File
+  uploaded: Uploaded
+  upload_failed: "Upload failed!"
+  keep_offline: "Keep off-line"
+
+  get_tags: "Tags"
+  add_modify_associated_tags: "Add/Modify associated Tags"
+  add_new_recording_take_using_filename: "Add new Recording/Take using filename"
+  include_also_disbanded_groups: "...And include also disbanded groups"
+  insert_new_recording_take: "Insert new Recording/Take"
+  which_band: "Which Band?"
+  which_song: "Which Song?"
+
+  id: Id
+  name: Name
+  description: Description
+  tot: Tot.
+  sum: Sum
+  mean: 'Aver.'
+  notes: Notes
+  created_at: Created at
+  updated_at: Updated at
+  created_on: Created on
+  updated_on: Updated on
+  created_slash_updated_at: "Created/Updated at"
+  created_slash_updated_on: "Created/Updated on"
+  details_for: Details for
+  refresh: Refresh
+  click_on_the_grid: "(Click on the grid to count)"
+  tot_rows: "tot. rows"
+  selected: Selected
+  grand_total: Grand total
+  subtotals: Subtotals
+  sums: Sums
+  costs: Costs
+  error: Error
+  undefined: "(undefined)"
+
+  user_id: User
+  nickname: Nickname
+  author_id: Author
+  author__name: Author
+  band_id: Group
+  band__name: Group
+  founded_on: Founded on
+  disbanded_on: Disbanded on
+  musician_id: Musician
+  musician__get_full_name: Musician
+  joined_on: Joined on
+  left_on: Left on
+  recording__id: "Rec. Id"
+  recording_id: "Rec. Id"
+  recording__rec_code: Recording Code
+  rec_code: Rec. Code
+  rec_date: Rec. Date
+  rec_order: Sequence
+  song_id: Original song
+  song__get_full_name: Original song
+  tag_id: Tag
+  take__get_full_name: Take
+  take_id: Take
+  ordinal: Sequence
+  vote: Vote
+
+  link_take_to_tag: Link Take to Tag
+  edit_take_to_tag_link: Edit Take-Tag association
+  associated_take: Associated Take
+  take__recording_id: Recording Id
+
+  warning_no_data_to_send: "There aren't any data rows to process!"
+  drag_to_resize: "Drag to resize the area"
+  show_details_tooltip: "Show the row details in a small pop-up window"
+  add: Add
+  edit: Edit
+  manage_details: Manage details
+  manage_details_tooltip: "Manage the details of the selected record [also: SPACE or ENTER just after row selection]"
+
+  reporting: "Reporting"
+  data_export: "Data export"
+
+  user__name: User
+  authorization_level: "Authorization lev."
+  password_confirmation: Confirm Password
+  salt: "Salt code"
+  hashed_pwd: "Hashed Pwd."
+  password_missing: "Password missing"
+  session_deleted: "Session deleted."
+  unable_to_delete_session: "Unable to delete this Session."
+  upload_failed: "Upload failed!"
+  keep_offline: "Keep off-line"
+
+  edit_inline: Edit in-line
+  edit_in_form: Edit in form
+  show_details: Show details
+  details: Row details
+  search: Search
+
+  title: Title
+  entry_text: Text
+  is_sticky: "Sticky?"
+
+  sub_entities_management: Sub-entities Management
+
+  cities: Cities
+  users: Users
+  code: Code
+  zip: ZIP
+  area: Area
+  country: Country
+  country_code: Country Code
+  display_symbol: Symbol
+  is_a_parent: "Macrotype?"
+  comment: Comment

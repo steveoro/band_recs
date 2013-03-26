@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  musician_id: 1
+  band_id: 1
+  joined_on: 2012-05-13 17:14:09
+  left_on: 2012-05-13 17:14:09
+  notes: MyText
+
+two:
+  musician_id: 1
+  band_id: 1
+  joined_on: 2012-05-13 17:14:09
+  left_on: 2012-05-13 17:14:09
+  notes: MyText

@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  code: 1
+  controller_name: MyString
+  action_name: MyString
+  a_string: MyString
+  a_bool: false
+  a_integer: 1
+  a_date: 2012-05-10 16:32:19
+  a_decimal: 9.99
+  a_decimal_2: 9.99
+  a_decimal_3: 9.99
+  a_decimal_4: 9.99
+  range_x: 1
+  range_y: 1
+  a_name: MyString
+  a_filename: MyString
+  code_type_1: 1
+  code_type_2: 1
+  free_text_1: MyText
+  free_text_2: MyText
+  free_bool_1: false
+  free_bool_2: false
+  description: MyText
+
+two:
+  code: 1
+  controller_name: MyString
+  action_name: MyString
+  a_string: MyString
+  a_bool: false
+  a_integer: 1
+  a_date: 2012-05-10 16:32:19
+  a_decimal: 9.99
+  a_decimal_2: 9.99
+  a_decimal_3: 9.99
+  a_decimal_4: 9.99
+  range_x: 1
+  range_y: 1
+  a_name: MyString
+  a_filename: MyString
+  code_type_1: 1
+  code_type_2: 1
+  free_text_1: MyText
+  free_text_2: MyText
+  free_bool_1: false
+  free_bool_2: false
+  description: MyText

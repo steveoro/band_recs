@@ -1,0 +1,15 @@
+<!-- Main menu section: -->
+<%= render( :partial => AGEX_APP + '/main_menu') %>
+
+<h1><%= t(:bands, {:scope=>[:agex_action]}) %></h1>
+
+<%= netzke :band_management_panel, {
+	:class_name => "BandManagePanel",
+	:title => t(:bands, {:scope=>[:agex_action]}),
+	:width => "98%",
+	:height => 500,
+	:border => true,
+	:view_config => {
+		:force_fit => true # force the columns to occupy all the available width
+	}
+} %>
