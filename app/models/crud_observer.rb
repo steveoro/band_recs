@@ -19,7 +19,7 @@ class CrudObserver < ActiveRecord::Observer
       action_desc = "new row added successfully"
     end
 
-    m = AgexMailer.action_notify_mail( AGEX_DEVELOPMENT_EMAILS, user_name, action_name, action_desc )
+    m = AgexMailer.action_notify_mail( user_name, action_name, action_desc )
     m.deliver()
   end
 
@@ -41,7 +41,7 @@ class CrudObserver < ActiveRecord::Observer
       action_desc = "row destroyed!"
     end
 
-    m = AgexMailer.action_notify_mail( AGEX_DEVELOPMENT_EMAILS, user_name, action_name, action_desc )
+    m = AgexMailer.action_notify_mail( user_name, action_name, action_desc )
     m.deliver()
   end
 end
