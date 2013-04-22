@@ -2,33 +2,13 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
+
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
   # If you want your assets lazily compiled in production, use this line
   # Bundler.require(:default, :assets, Rails.env)
 end
-
-
-# -- AgeX-specific stuff: --
-
-# [Steve, 20080414] ** DO NOT CHANGE THE FOLLOWING UNLESS YOU KNOW WHAT YOU'RE DOING!! **
-AGEX_FRAMEWORK_VERSION  = '3.03.06.20130329' unless defined? AGEX_FRAMEWORK_VERSION
-AGEX_APP                = 'band_recs' unless defined? AGEX_APP
-AGEX_APP_NAME           = 'BandRecs' unless defined? AGEX_APP_NAME
-AGEX_APP_LOGO           = 'band_recs_logo.png' unless defined? AGEX_APP_LOGO
-
-AGEX_FEATURES = {
-#  (configure here additional features) 
-} unless defined?(AGEX_FEATURES)
-
-
-LOCALES = {'it' => 'it-IT', 'en' => 'en-US'}.freeze
-
-# Set this to false to enable the self-destruct sequence on application timeout expiring.
-DISABLE_SELF_DESTRUCT = true unless defined?(DISABLE_SELF_DESTRUCT)
-# ---------------------------------------------------------------------------
-
 
 
 module BandRecs

@@ -1,4 +1,4 @@
-require 'ftools'
+require 'fileutils'                                 # Used for file upload management
 
 
 class UploadController < ApplicationController
@@ -39,7 +39,7 @@ class UploadController < ApplicationController
     if params[:datafile]
       tmp = params[:datafile].tempfile
       file = File.join( "public/uploads", params[:datafile].original_filename )
-      File.cp tmp.path, file
+      FileUtils.cp tmp.path, file
 # 
       # name =  params[:datafile].original_filename
       # directory = "public/uploads"

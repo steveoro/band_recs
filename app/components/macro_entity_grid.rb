@@ -2,7 +2,7 @@
 # Custom Macro-Entity grid component implementation
 #
 # - author: Steve A.
-# - vers. : 0.25.20130315 (BandRecs version)
+# - vers. : 3.03.12.20130418 (BandRecs version)
 #
 class MacroEntityGrid < Netzke::Basepack::GridPanel
 
@@ -101,6 +101,7 @@ class MacroEntityGrid < Netzke::Basepack::GridPanel
         function( view, record, item, idx, e ) {
           var key = e.getKey();
           if ( key == Ext.EventObject.ENTER || key == Ext.EventObject.SPACE ) {
+            this.setDisabled( true );               // Disable the grid before invoking request
                                                     // targetIdFieldForCtrlManage is inside meta-association fields?
             if ( this.targetIdFieldForCtrlManage.indexOf('__') >= 0 ) {
               // [Steve, 20130315] Support for old versions of Netzke (_meta):
@@ -113,6 +114,7 @@ class MacroEntityGrid < Netzke::Basepack::GridPanel
               location.href = managePath;           // => "/#{AGEX_APP}/#{I18n.locale}/" + this.targetForCtrlManage  + "/" + record.data[ this.targetIdFieldForCtrlManage ] + "/manage";
             }
           }
+          return false;
         },
         this
       );
@@ -138,6 +140,7 @@ class MacroEntityGrid < Netzke::Basepack::GridPanel
   js_method :on_ctrl_manage, <<-JS
     function() {
       var fld = this.getSelectionModel().selected.first().data;
+      this.setDisabled( true );                     // Disable the grid before invoking request
                                                     // targetIdFieldForCtrlManage is inside meta-association fields?
       if ( this.targetIdFieldForCtrlManage.indexOf('__') >= 0 ) {
         // [Steve, 20130315] Support for old versions of Netzke (_meta):
